@@ -1,0 +1,17 @@
+page-about {
+    .container {
+        display: flex ; 
+        flex-direction: row; 
+        flex-wrap: wrap ; 
+    }
+    .circle:before {
+        content: ' \25CF';
+        font-size: 200px;
+        
+    }
+    #map {
+        width: 100%;
+        height: 100%;
+      }
+
+}

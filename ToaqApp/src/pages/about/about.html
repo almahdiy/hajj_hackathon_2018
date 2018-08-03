@@ -1,0 +1,26 @@
+<ion-header >
+  <ion-navbar >
+    <ion-title>
+      Analysis
+    </ion-title>
+    <ion-buttons end>
+       
+      </ion-buttons> 
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <ion-content>
+        <div #map id="map"></div> 
+      </ion-content>
+
+  <div class="container">
+      <span class="circle" [ngStyle]="{'color': colors[[(counter1)]]}"></span>
+      <span class="circle" [ngStyle]="{'color': colors[[(counter2)]]}"></span>
+      <span class="circle" [ngStyle]="{'color': colors[[(counter3)]]}"></span>
+      <span class="circle" [ngStyle]="{'color': colors[[(counter0)]]}"></span>
+  </div>
+  
+
+</ion-content>
